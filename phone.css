@@ -1,0 +1,49 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+#Home{
+    height: 454px;
+    padding: 13px 188px;
+
+}
+#Home::before{
+   height: 480px;
+
+}
+#Home p{
+    font-size: 13px;
+}
+
+#Mid{
+    flex-direction: column;
+    padding: 70px 186px;
+   
+
+}
+#Mid .port{
+    font-size: 1rem;
+}
+#Mid p{
+    font-size: 0.9rem;
+}
+
+/* contact us section */
+
+
+/* footer */
+
+
+/* utility clases */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+
+}

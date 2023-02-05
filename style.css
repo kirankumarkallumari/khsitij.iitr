@@ -1,0 +1,244 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css variables */
+/* :root{
+    --navbar-height:59px; */
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: center; */
+}
+/* Navigation bar: Logo and Image */
+#logo{
+    margin: 5px 5px;
+
+}
+#logo img{
+   height: 55px;
+    margin: 9px 24px; 
+}
+
+/* Navigation bar : List styling*/
+
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+
+
+
+
+
+
+
+    
+   
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+/* home section */
+#Home{
+    display: flex;
+    flex-direction: column;
+     height: 400px; 
+    padding: 3px 200px; 
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    background:url('../css/img/bg2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   
+}
+#Home h1{
+    color:black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  
+
+    
+    
+}
+#Home p{
+    color: rgb(94, 89, 89);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+
+}
+/* port section */
+#Mid{
+    display: flex;
+    flex-direction: column;
+    height: 227px;
+    padding: 91px 186px;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+#Mid::before{
+    content: "";
+    position: absolute;
+   background:url('../css/port2.jpg') no-repeat center center/cover;
+   height: 55%;
+   width: 100%;
+   z-index: -1; 
+   opacity: 0.9;
+   
+   
+   
+}
+
+
+#Mid.port{
+    border: 2px solid white;
+}
+#Mid p{
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    align-items: center;
+    
+    
+   
+ 
+}
+#Mid h3{
+    color:#5a0808 ;
+  
+    font-weight: bold;
+    font-size: 2.5rem;
+    align-items:center;
+    justify-content: center;
+
+}
+#Mid .port2{
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#Mid .port3{
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 26px;
+}
+.file-upload-input{
+    align-items: center;
+    margin-left: 30px;
+}
+   
+/* utility class */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 12px;
+    /* margin: ; */}
+.h-secondary{
+    font-size: 2.7rem;
+    padding: 12px;
+    /* margin: ; */
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(200, 167, 167);
+    background-color: brown;
+    color: white;
+    margin: 16px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+     background-color: black;
+     
+}
+.center{
+    text-align: center;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../css/img/contact.jpg') no-repeat center center/cover ;
+
+}
+
+  
+
+
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px; ;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
